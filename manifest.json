@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "Calculadora",
     "short_name": "Calculadora",
-    "start_url":"https://scrawny-heather-switch.glitch.me/",
+    "start_url":"https://jumpy-trusting-addition.glitch.me",
     "scope": "/",
     "display": "fullscreen",
     "background_color": "#000000",
@@ -11,7 +11,7 @@
     "description": "",
     "orientation": "any",
     "related_applications": [],
-    "url":"https://scrawny-heather-switch.glitch.me/",
+    "url":"https://jumpy-trusting-addition.glitch.me",
     "prefer_related_applications": false,
     "icons": [
         {
