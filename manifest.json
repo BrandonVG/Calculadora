@@ -5,7 +5,7 @@
     "short_name": "Calculadora",
     "start_url":"https://scrawny-heather-switch.glitch.me/",
     "scope": "/",
-    "display": "browser",
+    "display": "fullscreen",
     "background_color": "#000000",
     "theme_color": "transparent",
     "description": "",
@@ -13,6 +13,16 @@
     "related_applications": [],
     "url":"https://scrawny-heather-switch.glitch.me/",
     "prefer_related_applications": false,
-    "icons": [],
-    "screenshots": []
+    "icons": [
+        {
+        "src":"icon-512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+        },
+        {
+            "src":"icon-32.png",
+            "sizes":"32x32",
+            "type":"image/png"
+        }
+    ]
 }
