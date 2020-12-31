@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <table class="calculadora">
+            <tr>
+                <td colspan="4" id="display" class="display">0</td>
+            </tr>
+            <tr>
+                <td><input type="button" style="height:40px;width:70px;background-color: #d2f6c5;" value="M" id="botonM"></td>
+                <td><input type="button" style="height:40px;width:70px;background-color: #d2f6c5;" value="M+" id="botonMmas"></td>
+                <td><input type="button" style="height:40px;width:70px;background-color: #d2f6c5;" value="M-" id="botonMmenos"></td>
+                <td><input type="button" style="height:40px;width:70px;background-color: #d2f6c5;" value="C" id="botonC"></td>
+            </tr>
+            <tr>
+                <td><input type="button" style="height:100px;width:70px;background-color: #99f3bd;" id="botonSiete" value="7"></td>
+                <td><input type="button" id="botonOcho" style="height:100px; width:70px;background-color: #99f3bd;" value="8"></td>
+                <td><input type="button" id="botonNueve" style="height:100px;width:70px;background-color: #99f3bd;" value="9"></td>
+                <td><input type="button" id="botonSumar" style="height:50px;width:70px;background-color: #d2f6c5;" value="+" >
+                <br>
+                <input type="button" id="botonResta" style="height:50px;width:70px;background-color: #d2f6c5;" value="-" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" style="height:100px;width:70px;background-color: #99f3bd;" id="botonCuatro" value="4"></td>
+                <td><input type="button" id="botonCinco" style="height:100px; width:70px;background-color: #99f3bd;" value="5"></td>
+                <td><input type="button" id="botonSeis" style="height:100px;width:70px;background-color: #99f3bd;" value="6"></td>
+                <td><input type="button" id="botonMultiplicacion" style="height:50px;width:70px;background-color: #d2f6c5;" value="*" >
+                <br>
+                <input type="button" id="botonDivision" style="height:50px;width:70px;background-color: #d2f6c5;" value="/" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" style="height:100px;width:70px;background-color: #99f3bd;" id="botonUno" value="1"></td>
+                <td><input type="button" id="botonDos" style="height:100px; width:70px;background-color: #99f3bd;" value="2"></td>
+                <td><input type="button" id="botonTres" style="height:100px;width:70px;background-color: #99f3bd;" value="3"></td>
+                <td><input type="button" style="height:100px;width:70px;background-color: #d2f6c5;" id="botonIgual" value="="></td>
+            </tr>
+            <tr>
+                <td><input type="button"style="height:100px;width:70px;" disabled></td>
+                <td><input type="button"style="height:100px;width:70px;" disabled></td>
+                <td><input type="button" style="height:100px;width:70px; background-color: #99f3bd;" id="botonCero" value="0"></td>
+                <td><input type="button" id="botonPunto" style="height:100px; width:70px; background-color: #28df99;" value="."></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
